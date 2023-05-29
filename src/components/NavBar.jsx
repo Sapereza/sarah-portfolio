@@ -50,7 +50,7 @@ const NavBar = () => {
       </div>
 
       {nav && (
-        <ul className="flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-gradient-to-b from-red-500 via-red-500 to-slate-300 ">
+        <ul className="flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-gradient-to-b from-red-500 via-red-500 to-slate-300">
           
         {links.map(({ id, link }) => (
             <li key={id} className="px-4 cursor-pointer capitalize py-6 text-4xl font-medium hover:scale-105 duration-200">{link}</li>

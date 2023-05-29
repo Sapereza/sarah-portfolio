@@ -15,9 +15,10 @@ const Home = () => {
                     I like to work on web applications using React and Tailwind CSS.
                 </p>
                 <div>
-                    <button className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-indigo-500 shadow drop-shadow-md cursor-pointer active:shadow-inner active:shadow-black/50 active:duration-200">
+                    <button className="text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-indigo-500 shadow drop-shadow-md cursor-pointer active:shadow-inner active:shadow-black/50 duration-200 
+                    ">
                         Portfolio
-                        <span className="group-hover:rotate-90 duration-300">
+                        <span className="duration-300">
                         <HiArrowNarrowRight size={25} className="ml-1" />
                         </span>
                         
