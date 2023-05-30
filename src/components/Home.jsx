@@ -47,7 +47,7 @@ const Home = () => {
     }
 
   return (
-    <div name="home" className="h-screen w-full bg-gradient-to-b from-red-500 via-red-500 to-slate-300">
+    <div name="home" className="h-screen w-full bg-gradient-to-b from-red-500 via-red-500 to-slate-500">
         
         <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-between h-full px-4 md:flex-row md:space-x-28">
             <div className="flex flex-col justify-center h-full">
@@ -62,9 +62,8 @@ const Home = () => {
                 <p className="text-white pb-4 max-w-md">
                     I like to work on web applications using React and Tailwind CSS.
                 </p>
-                <div>
-                    <button className="text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-indigo-500 shadow drop-shadow-md cursor-pointer active:shadow-inner active:shadow-black/50 duration-200 
-                    ">
+                <div className="relative z-0">
+                    <button className="text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-indigo-500 shadow drop-shadow-md cursor-pointer">
                         Portfolio
                         <span className="duration-300">
                         <HiArrowNarrowRight size={25} className="ml-1" />
