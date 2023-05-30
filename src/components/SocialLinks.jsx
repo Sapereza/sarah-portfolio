@@ -15,7 +15,7 @@ const SocialLinks = () => {
                 GitHub <FaGithub size={30}/>
                 </>
             ),
-            href: 'https://github.com/',
+            href: 'https://github.com/Sapereza',
             style: 'rounded-tr-md'
         },
 
@@ -26,7 +26,7 @@ const SocialLinks = () => {
                 Codepen <FaCodepen size={30}/>
                 </>
             ),
-            href: 'https://codepen.com/',
+            href: 'https://codepen.io/sapereza',
         },
 
         {
@@ -36,7 +36,7 @@ const SocialLinks = () => {
                 LinkedIn <FaLinkedin size={30}/>
                 </>
             ),
-            href: 'https://linkedin.com/',
+            href: 'https://www.linkedin.com/in/sapereza/',
         },
 
         {
@@ -70,7 +70,7 @@ const SocialLinks = () => {
 
             {links.map(({id, child, href, style, download}) => ( 
 
-                <li key={id} className={"flex justify-between items-center w-40 h-14 px-4 ml-[-100px] hover:ml-[-10px] hover:rounded-md duration-300 bg-gray-500 md:shadow-sm md:shadow-black" + " " + style}>
+                <li key={id} className={"flex justify-between items-center w-40 h-14 px-4 ml-[-100px] hover:ml-[-10px] hover:rounded-md duration-300 bg-stone-500/60" + " " + style}>
                                 
                 <a href={href} className="flex justify-between items-center w-full text-white" download={download} target="_blank" rel="noreferrer">
                     

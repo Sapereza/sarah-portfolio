@@ -47,20 +47,21 @@ const Home = () => {
     }
 
   return (
-    <div name="home" className="h-screen w-full bg-gradient-to-b from-red-500 via-red-500 to-slate-500">
+    <div name="home" className="h-screen w-full bg-gradient-to-b from-red-500 via-red-500 to-rose-400">
         
         <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-between h-full px-4 md:flex-row md:space-x-28">
             <div className="flex flex-col justify-center h-full">
-                <h1 className="text-4xl md:text-5xl text-white font-bold mb-4 whitespace-nowrap mt-20">
+                <h1 className="text-5xl md:text-6xl text-white font-bold mb-4 whitespace-nowrap mt-20">
                     I'm a 
                     <br></br>
-                    <div className="container md:w-96 h-12 flex items-center text-rose-900">
+                    <div className="container md:w-96 h-12 flex items-center text-yellow-200">
                         {text}
                     </div>
                     
                 </h1>
                 <p className="text-white pb-4 max-w-md">
                     I like to work on web applications using React and Tailwind CSS.
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia minima sed assumenda tempora voluptas beatae, facilis ab! Possimus, asperiores eum.
                 </p>
                 <div className="relative z-0">
                     <button className="text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-indigo-500 shadow drop-shadow-md cursor-pointer">
@@ -74,7 +75,7 @@ const Home = () => {
             </div>
 
             <div className="">
-                <img src={HeroImage} alt="my profile" className="rounded-full mx-auto w-2/3 md:w-2/3"/>
+                <img src={HeroImage} alt="my profile" className="rounded-full mx-auto w-2/3 md:w-full"/>
             </div>
 
         </div>
