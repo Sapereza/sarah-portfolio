@@ -9,7 +9,7 @@ const Home = () => {
     const [loopNum, setLoopNum] = useState(0);
     const [isDeleting, setIsDeleting] = useState(false);
     const toRotate = [
-        "Web Developer",
+        "Front End Dev",
         "Designer",
         "Creator",
         "Streamer",
