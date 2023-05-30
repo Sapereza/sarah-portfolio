@@ -2,6 +2,7 @@ import React from 'react';
 import HeroImage from "../assets/heroImage.png";
 import {HiArrowNarrowRight} from "react-icons/hi";
 import { useState, useEffect } from "react";
+import {Link} from "react-scroll";
 
 const Home = () => {
 
@@ -64,13 +65,13 @@ const Home = () => {
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia minima sed assumenda tempora voluptas beatae, facilis ab! Possimus, asperiores eum.
                 </p>
                 <div className="relative z-0">
-                    <button className="text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-indigo-500 shadow drop-shadow-md cursor-pointer">
+                    <Link to="portfolio" smooth duration={500} className="text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-indigo-500 shadow drop-shadow-md cursor-pointer hover:scale-110 duration-300">
                         Portfolio
                         <span className="duration-300">
                         <HiArrowNarrowRight size={25} className="ml-1" />
                         </span>
                         
-                    </button>
+                    </Link>
                 </div>
             </div>
 
