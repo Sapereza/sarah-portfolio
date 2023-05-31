@@ -97,7 +97,7 @@ const Footer = () => {
 
 
             </div>
-            <div className="flex items-center justify-center border-t-2 pt-2 px-12 mt-2">
+            <div className="flex items-center justify-center border-t-2 pt-2 px-8 mt-2">
                 <p className="mr-2">
                     <AiOutlineCopyrightCircle/>
                 </p>
