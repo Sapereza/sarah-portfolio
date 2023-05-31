@@ -55,7 +55,7 @@ const Experience = () => {
   return (
     <div name="experience" className="bg-gradient-to-b from-rose-400 to-red-500 w-full text-white md:h-screen">
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
-        <div className="pb-6 mt-12 md:mt-96">
+        <div className="pb-6 mt-20 md:mt-80">
           <h1 className="text-3xl font-bold inline border-b-4 p-2 border-white">
             Experience
           </h1>
@@ -69,8 +69,8 @@ const Experience = () => {
               techs.map(({id, src, title, style}) => 
               (
 
-                <div key={id} className={`shadow-md hover:scale-105 duration-500 py-2 rounded-full ${style}`}>
-                  <img src={src} alt="" className="w-20 mx-auto"/>
+                <div key={id} className={`shadow-md hover:scale-105 duration-500 py-6 md:py-20 rounded-full ${style}`}>
+                  <img src={src} alt="" className="w-16 md:w-24 mx-auto"/>
                   <p className="mt-4">{title}</p>
                 </div>
 
