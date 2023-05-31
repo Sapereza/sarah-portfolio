@@ -78,7 +78,7 @@ const Footer = () => {
 
 
   return (
-    <div name="footer" className="md:hidden w-full h-28 bg-gradient-to-b from-red-500 to-rose-400 text-white">
+    <div name="footer" className="md:hidden w-full h-28 bg-gradient-to-b from-rose-400 to-red-500 text-white">
         <div>
             <div className="flex justify-between px-6">
                 {links.map(({id, child, href, style, download}) =>
@@ -97,7 +97,7 @@ const Footer = () => {
 
 
             </div>
-            <div className="flex items-center justify-center border-t-2 pt-2 mt-2">
+            <div className="flex items-center justify-center border-t-2 pt-2 px-12 mt-2">
                 <p className="mr-2">
                     <AiOutlineCopyrightCircle/>
                 </p>
