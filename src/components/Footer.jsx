@@ -97,13 +97,13 @@ const Footer = () => {
 
 
             </div>
-            <div className="flex items-center justify-center border-t-2 pt-2 px-4 mt-2">
+            <div className="flex items-center justify-center border-t-2 pt-2 mt-2">
                 <p className="mr-2">
                     <AiOutlineCopyrightCircle/>
                 </p>
                 
                 <p>
-                    2023 | Designed & Built By: <i className="font-signature text-2xl font-thin">Sarah Perez-Anderson</i>
+                    2023 | Built By: <i className="font-signature text-2xl font-thin">Sarah Perez-Anderson</i>
                 </p>
                     
             </div>
