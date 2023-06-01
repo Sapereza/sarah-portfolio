@@ -1,12 +1,15 @@
-import Home from "./components/Home";
-import NavBar from "./components/NavBar";
-import SocialLinks from "./components/SocialLinks";
-import About from "./components/About";
-import Portfolio from "./components/Portfolio";
-import Experience from "./components/Experience";
-import Contact from "./components/Contact";
-import Space from "./components/Space";
 import Footer from "./components/Footer";
+import Contact from "./components/Contact";
+import Experience from "./components/Experience";
+import Portfolio from "./components/Portfolio";
+import About from "./components/About";
+import SocialLinks from "./components/SocialLinks";
+import NavBar from "./components/NavBar";
+import Home from "./components/Home";
+
+import Space from "./components/Space";
+
+import Space2 from "./components/Space2";
 
 
 function App() {
@@ -14,8 +17,10 @@ function App() {
     <div>
       <NavBar />
       <Home />
+      <Space2 />
+      
       <About />
-      <Space />
+     <Space />
       <Portfolio />
       <Space />
       <Experience />
@@ -23,8 +28,6 @@ function App() {
       <Contact />
       <Space />
       <Footer />
-      
-
       <SocialLinks />
     </div>
   );

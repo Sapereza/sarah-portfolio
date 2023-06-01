@@ -50,11 +50,13 @@ const Portfolio = () => {
 
 
   return (
-    <div name="portfolio" className="bg-gradient-to-b from-rose-400 to-red-500 w-full text-white md:h-screen">
+    <div className="bg-gradient-to-b from-rose-400 to-red-500 w-full text-white md:h-screen">
         <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
-            <div className="pb-6 mt-20 md:mt-48">
-                <h1 className="text-3xl font-bold inline border-b-4 p-2 border-white">Portfolio</h1>
-                <p className="py-6 text-xl">Take a look at some of my work here:</p>
+            <div name="portfolio" className="pb-6 mt-800 md:mt-72">
+                <div className="mt-28 md:mt-36">
+                    <h1 className="text-3xl font-bold inline border-b-4 p-2 border-white">Portfolio</h1>
+                    <p className="py-6 text-xl">Take a look at some of my work here:</p>
+                </div>
             </div>
 
             <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
