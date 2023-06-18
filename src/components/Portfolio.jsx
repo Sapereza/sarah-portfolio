@@ -6,6 +6,8 @@ import reactParallax from '../assets/portfolio/reactParallax.jpg';
 import reactSmooth from '../assets/portfolio/reactSmooth.jpg';
 import reactWeather from '../assets/portfolio/reactWeather.jpg';
 
+
+
 const Portfolio = () => {
 
     const portfolios = [
@@ -78,6 +80,14 @@ const Portfolio = () => {
                     ))
                 }
             </div> 
+            <div className="w-full flex justify-center mt-20">
+                <div className="border-t-2 border-b-2 border-white">
+                    <div className="text-center py-4">
+                        <p>Take a Look at my Portfolio <br/>Archive Here</p>
+                    </div>
+
+                </div>
+            </div>
         </div>
     </div>
   )

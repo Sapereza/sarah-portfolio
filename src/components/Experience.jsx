@@ -63,7 +63,7 @@ const Experience = () => {
             These are the technologies that I have worked with:
           </p>
 
-          <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-4">
+          <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0">
 
             {
               techs.map(({id, src, title, style}) => 
@@ -78,7 +78,18 @@ const Experience = () => {
             }
 
           </div>
-
+            
+          {/*}
+          <div className="flex justify-center items-center">
+            <div className="w-52 h-52 border-black border-2 rounded-full flex justify-center items-center">
+              <div className="w-48 h-48 border-black border-2 p-2 rounded-full flex flex-col justify-center items-center">
+                <img src={tailwind} alt="" className="w-8"></img>
+                <p className="text-sm">Tailwind CSS</p>
+                <p>36%</p>
+              </div>
+            </div>
+          </div>
+          */}
         </div>
       </div>
     </div>
